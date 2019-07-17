@@ -13,4 +13,9 @@
 2. You can run command "git status" optionally to check the state of the repository
 3. Run command "git add ." which will commit all the changes in all the files
 4. Run command "git commit -m "some message""
-5. 
+5. To see difference from the updates optionally run "git diff"
+5. If there is issue with credentials run following commands to get prompted for username and password
+git config --local credential.helper ""
+git push origin master
+6. If there are no issues just run
+git push origin master
